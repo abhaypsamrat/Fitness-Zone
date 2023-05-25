@@ -11,33 +11,33 @@ import "./trainers.css";
 
 const Trainers = () => {
 	return (
-		<>
-			<Header image={HeaderImage} title="Our Trainers">
-				Adipisicing labore laboris ea sunt cillum ea velit.Adipisicing labore la
-				boris ea sunt cillum ea velit. sunt cillum ea velit.
-			</Header>
-			<section className="trainers">
-				<div className="container trainers__container">
-					{trainers.map(({ id, image, name, job, socials }) => {
-						return (
-							<Trainer
-								key={id}
-								image={image}
-								name={name}
-								job={job}
-								socials={[
-									{ icon: <BsInstagram />, link: socials[0] },
-									{ icon: <AiOutlineTwitter />, link: socials[1] },
-									{ icon: <FaFacebookF />, link: socials[2] },
-									{ icon: <FaLinkedinIn />, link: socials[3] },
-								]}
-							/>
-						);
-					})}
-				</div>
-			</section>
-		</>
-	);
+    <>
+      <Header image={HeaderImage} title="Our Trainers">
+        We provide experienced trainers, allowing members to choose the best trainer for
+        their fitness goals.
+      </Header>
+      <section className="trainers">
+        <div className="container trainers__container">
+          {trainers.map(({ id, image, name, job, socials }) => {
+            return (
+              <Trainer
+                key={id}
+                image={image}
+                name={name}
+                job={job}
+                socials={[
+                  { icon: <BsInstagram />, link: socials[0] },
+                  { icon: <AiOutlineTwitter />, link: socials[1] },
+                  { icon: <FaFacebookF />, link: socials[2] },
+                  { icon: <FaLinkedinIn />, link: socials[3] },
+                ]}
+              />
+            );
+          })}
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Trainers;
