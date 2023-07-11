@@ -36,35 +36,35 @@ export const links = [
 
 
 export const programs = [
-    {
-        id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/111"
-    },
-    {
-        id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/222"
-    },
-    {
-        id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/333"
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/444"
-    }
-]
+  {
+    id: 1,
+    icon: <SiOpenaigym />,
+    title: "Biceps Workout",
+    info: "This Workout for Monday!",
+    path: "/programs/111",
+  },
+  {
+    id: 2,
+    icon: <SiOpenaigym />,
+    title: "Chest Workout",
+    info: "This Workout for Tuesday!",
+    path: "/programs/222",
+  },
+  {
+    id: 3,
+    icon: <SiOpenaigym />,
+    title: "Shoulder Workout",
+    info: "This Workout for Wednesday",
+    path: "/programs/333",
+  },
+  {
+    id: 4,
+    icon: <SiOpenaigym />,
+    title: "Triceps & Abs Workout",
+    info: "This Workout for Thursday",
+    path: "/programs/444",
+  },
+];
 
 
 
@@ -74,31 +74,31 @@ export const programs = [
 
 
 export const values = [
-    {
-        id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    }
-]
+  {
+    id: 1,
+    icon: <SiOpenaigym />,
+    title: "Health",
+    desc: "Members can access summaries of their past workouts",
+  },
+  {
+    id: 2,
+    icon: <SiOpenaigym />,
+    title: "Strong Mindset",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+  {
+    id: 3,
+    icon: <SiOpenaigym />,
+    title: "Inspiration & Motivation",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+  {
+    id: 4,
+    icon: <SiOpenaigym />,
+    title: "Nutrition",
+    desc: "Members can track their daily calorie intake",
+  },
+];
 
 
 
